@@ -1,4 +1,4 @@
-def authentication_decorator(foo):
+def auth_decorator(foo):
     def wrapper(*args):
         if user.auth:
             return foo(*args)
