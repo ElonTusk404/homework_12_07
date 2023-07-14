@@ -3,5 +3,5 @@ def auth_decorator(foo):
         if user.auth:
             return foo(*args)
         else:    
-            raise Exception('User is not authenticated.')
+            raise Exception('Ошибка входа, пожалуйста войдите в аккаунт.')
     return wrapper
